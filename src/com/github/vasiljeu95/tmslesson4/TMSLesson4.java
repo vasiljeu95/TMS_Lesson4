@@ -9,8 +9,17 @@ public class TMSLesson4 {
 //        int a = sc.nextInt();
 //        System.out.println("Вы ввели "+a);
 
-        System.out.println("Введите строку");
-        String str = sc.nextLine();
-        System.out.println("Вы ввели "+str);
+//        System.out.println("Введите строку");
+//        String str = sc.nextLine();
+//        System.out.println("Вы ввели "+str);
+
+        System.out.println("Введите целое число");
+        while (sc.hasNextInt()){
+            int a=sc.nextInt();
+            System.out.println("Вы ввели "+a);
+            if (a == 10) {
+                break;
+            }
+        }
     }
 }
